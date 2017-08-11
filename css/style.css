@@ -1,0 +1,57 @@
+/* NOTE:  */
+
+
+body{
+  background-image: url("../images/bg-2.png");
+
+}
+
+/* NOTE: header */
+
+header{
+    position: fixed;
+}
+div.contenedor-header{
+  width: 960px;
+  background-color: rgb(240, 123, 16);
+  overflow: hidden;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 15%;
+}
+
+div.logo{
+  float: left;
+}
+
+nav ul li{
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+  font-size: 20px;
+
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+
+/* NOTE: section */
+
+section{
+   background-color: white;
+   padding: 10px 10px;
+   width: 960px;
+   margin-left: 15%;
+
+
+}
+
+div.contenedor-imagenes{
+   overflow: hidden;
+}
+
+div .foto1,.foto2,.foto3{
+  float: left;
+  padding: 10px 10px;
+}
